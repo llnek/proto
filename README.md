@@ -1,5 +1,5 @@
-# wabbit-mock
-Mock components for wabbit
+# proto
+Mock-up components for testing purposes.
 
 ## Usage
 

@@ -1,12 +1,12 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
-(defproject io.czlab/wabbit-mock "0.1.0"
+(defproject io.czlab/proto "0.1.0"
 
   :license {:url "http://www.eclipse.org/legal/epl-v10.html"
             :name "Eclipse Public License"}
 
   :description ""
-  :url "https://github.com/llnek/wabbit-mock"
+  :url "https://github.com/llnek/proto"
 
   :dependencies [[org.apache.geronimo.specs/geronimo-jms_1.1_spec "1.1.1"]
                  [com.sun.mail/javax.mail "1.5.6"]
@@ -26,7 +26,7 @@
   :target-path "out/%s"
   :aot :all
   ;;:jar-exclusions [#"(?:^|/).svn/"]
-  :coordinate! "czlab/wabbit/mock"
+  :coordinate! "czlab"
   :omit-source true
 
   :java-source-paths ["src/main/java"]
