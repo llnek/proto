@@ -13,7 +13,7 @@
 
   (:gen-class)
 
-  (:require [czlab.xlib.logging :as log]
+  (:require [czlab.basal.logging :as log]
             [clojure.string :as cs]
             [clojure.java.io :as io]))
 
