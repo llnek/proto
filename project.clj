@@ -9,8 +9,7 @@
   :url "https://github.com/llnek/proto"
 
   :dependencies [[org.apache.geronimo.specs/geronimo-jms_1.1_spec "1.1.1"]
-                 [com.sun.mail/javax.mail "1.5.6"]
-                 [io.czlab/basal "1.0.0"]]
+                 [com.sun.mail/javax.mail "1.5.6"]]
 
   :plugins [[cider/cider-nrepl "0.14.0"]
             [lein-javadoc "0.3.0"]
