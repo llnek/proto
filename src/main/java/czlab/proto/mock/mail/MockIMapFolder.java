@@ -156,7 +156,9 @@ public class MockIMapFolder extends Folder {
    */
   @Override
   public int getMessageCount() throws MessagingException {
-    return _count= _rand.nextInt(10);
+    _count= _rand.nextInt(10);
+    if (_count < 1) _count = 1;
+    return _count;
   }
 
   /**
