@@ -15,9 +15,6 @@ Add the following dependency to your `project.clj` file:
 
 ## Usage
 
-```clojure
-
-```
 
 ## Contacting me / contributions
 

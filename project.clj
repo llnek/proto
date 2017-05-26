@@ -5,7 +5,7 @@
   :license {:url "http://www.eclipse.org/legal/epl-v10.html"
             :name "Eclipse Public License"}
 
-  :description ""
+  :description "Mock servers for email and jms transports."
   :url "https://github.com/llnek/proto"
 
   :dependencies [[org.apache.geronimo.specs/geronimo-jms_1.1_spec "1.1.1"]
@@ -18,7 +18,6 @@
 
   :profiles {:provided {:dependencies
                         [[org.clojure/clojure "1.8.0" :scope "provided"]
-                         [net.mikera/cljunit "0.6.0" :scope "test"]
                          [junit/junit "4.12" :scope "test"]]}
              :uberjar {:aot :all}}
 
@@ -35,7 +34,6 @@
   :java-source-paths ["src/main/java" "src/test/java"]
   :source-paths ["src/main/clojure"]
   :test-paths ["src/test/clojure"]
-  ;;:resource-paths ["src/main/resources"]
 
   :jvm-opts ["-Dlog4j.configurationFile=file:attic/log4j2.xml"]
   :javac-options ["-source" "8"
